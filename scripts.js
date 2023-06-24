@@ -141,7 +141,7 @@ function sortByPercentageChange() {
 function attachEventListeners() {
   // Attach event listener to search button
   const searchButton = document.getElementById('search-button');
-  searchButton.addEventListener('search-button', handleSearch);
+  searchButton.addEventListener('click', handleSearch);
 
   // Attach event listeners to sorting buttons
   const sortMarketCapButton = document.getElementById('sort-market-cap');
